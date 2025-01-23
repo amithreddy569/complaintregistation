@@ -3,7 +3,7 @@ package com.complaintmanagement.constants;
 public class Utility {
 	public static String getAlphaNumericReferenceId(int n)
 	    {
-	  
+	   
 	        // chose a Character random from this String
 	        String AlphaNumericString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	                                    + "0123456789"

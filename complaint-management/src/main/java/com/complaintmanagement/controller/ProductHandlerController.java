@@ -20,7 +20,7 @@ import com.complaintmanagement.model.ProductHandler;
 public class ProductHandlerController {
 	
 	private static Logger LOG = LogManager.getLogger(ProductHandlerController.class);
-
+ 
 	@Autowired
 	private ProductHandlerDao ProductHandlerDao;
 	

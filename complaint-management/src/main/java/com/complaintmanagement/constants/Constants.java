@@ -4,7 +4,7 @@ public class Constants {
 	
 	public enum ComplaintStatus {
 		PENDING("pending"),
-		RECIEVED("recieved"),
+		RECIEVED("recieved"), 
 		ACCEPTED("accepted"),
 		REQUEST_DETAILS("request_details"),
 		RESOLVED("resolved");

@@ -8,7 +8,7 @@ import com.complaintmanagement.model.ProductAdmin;
 
 @Repository
 public interface ProductAdminDao extends JpaRepository<ProductAdmin, Integer> {
-	
+	 
 	ProductAdmin findByUsernameAndPassword(String username , String password);
 
 }

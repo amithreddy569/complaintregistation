@@ -12,7 +12,7 @@ import lombok.Setter;
 
 @Entity
 public class Complaints {
-	
+	 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="Id")

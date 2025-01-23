@@ -13,7 +13,7 @@ import lombok.Setter;
 
 @Entity
 public class ProductAdmin {
-	
+	 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="Id")

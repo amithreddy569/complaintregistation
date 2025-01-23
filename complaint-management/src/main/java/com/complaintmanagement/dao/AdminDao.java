@@ -6,7 +6,7 @@ import com.complaintmanagement.model.Admin;
 
 @Repository
 public interface AdminDao extends JpaRepository<Admin, Integer> {
-	
+	 
 	Admin findByUsernameAndPassword(String username , String password);
 
 }

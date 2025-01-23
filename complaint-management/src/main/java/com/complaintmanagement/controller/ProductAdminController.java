@@ -17,7 +17,7 @@ import com.complaintmanagement.dao.ProductAdminDao;
 import com.complaintmanagement.model.ProductAdmin;
 
 @Controller
-public class ProductAdminController {
+public class ProductAdminController { 
 	
 	private static Logger LOG = LogManager.getLogger(ProductAdminController.class);
 

@@ -16,7 +16,7 @@ public class ProductController {
 	
 	@Autowired
 	private ProductDao productDao;
-	
+	 
 	@PostMapping("/addproduct")
 	public ModelAndView addProduct(@ModelAttribute Product product, Model model) throws IOException, ServletException {
 		ModelAndView mv = new ModelAndView();

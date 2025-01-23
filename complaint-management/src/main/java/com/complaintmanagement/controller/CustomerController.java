@@ -17,7 +17,7 @@ import com.complaintmanagement.model.Customer;
 
 @Controller
 public class CustomerController {
-	
+	 
 	private static Logger LOG = LogManager.getLogger(CustomerController.class);
 
 	@Autowired

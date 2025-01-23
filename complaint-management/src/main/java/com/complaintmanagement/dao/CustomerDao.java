@@ -8,7 +8,7 @@ import com.complaintmanagement.model.Customer;
 
 @Repository
 public interface CustomerDao extends JpaRepository<Customer, Integer> {
-	
+	 
 	Customer findByUsernameAndPassword(String username , String password);
 
 }

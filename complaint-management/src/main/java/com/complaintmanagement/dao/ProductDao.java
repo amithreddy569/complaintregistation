@@ -9,3 +9,4 @@ import com.complaintmanagement.model.Product;
 public interface ProductDao extends JpaRepository<Product, Integer>{
 
 }
+ 

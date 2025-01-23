@@ -9,7 +9,7 @@ import com.complaintmanagement.model.Complaints;
 
 @Repository
 public interface ComplaintsDao extends JpaRepository<Complaints, Integer>{
-	
+	 
 	List<Complaints> findByCustomerId(int customerId);
 	List<Complaints> findByReferenceId(String referenceId);
 	List<Complaints> findByProductHandlerId(int handlerId);

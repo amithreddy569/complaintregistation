@@ -19,7 +19,7 @@ import com.complaintmanagement.model.Complaints;
 import com.complaintmanagement.model.Customer;
 
 @Controller
-public class ComplaintController {
+public class ComplaintController { 
 	
 	@Autowired
 	private ComplaintsDao complaintDao;

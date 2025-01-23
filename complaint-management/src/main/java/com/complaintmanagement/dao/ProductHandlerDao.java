@@ -10,5 +10,5 @@ import com.complaintmanagement.model.ProductHandler;
 public interface ProductHandlerDao extends JpaRepository<ProductHandler, Integer> {
 	
 	ProductHandler findByUsernameAndPassword(String username , String password);
-
+ 
 }

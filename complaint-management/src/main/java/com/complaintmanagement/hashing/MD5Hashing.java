@@ -7,7 +7,7 @@ public class MD5Hashing {
 	
 	//MD5 Hashing Algorithm
 	public static String doHashing (String password)
-	{
+	{ 
 		  StringBuilder sb = null;
 		  try {
 		   MessageDigest messageDigest = MessageDigest.getInstance("MD5");

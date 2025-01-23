@@ -17,7 +17,7 @@ import com.complaintmanagement.dao.AdminDao;
 import com.complaintmanagement.model.Admin;
 
 @Controller
-public class AdminController {
+public class AdminController { 
 	
 	private static Logger LOG = LogManager.getLogger(AdminController.class);
 
